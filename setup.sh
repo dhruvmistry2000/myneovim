@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Check if Neovim or Vim is installed, if not install Neovim
 if ! command -v nvim &> /dev/null && ! command -v vim &> /dev/null; then
     case "$OSTYPE" in
